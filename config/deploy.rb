@@ -1,7 +1,7 @@
 lock '~> 3.19.2'
 
 set :application, 'lodestone'
-set :repo_url,    'https://github.com/skyborn-industries/lodestone'
+set :repo_url,    'https://github.com/fae-industries/lodestone'
 set :branch,      ENV['BRANCH_NAME'] || 'main'
 set :deploy_to,   '/var/rails/lodestone'
 set :default_env, { path: '$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH' }
